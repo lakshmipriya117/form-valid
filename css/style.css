@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.hidden {
+
+  display: none;
+
+}
+.required {
+  color: red;
+}
+
+input[type="submit"]:disabled {
+  background-color: red;      }
+body{
+  background-color: #cca941;
+  padding: 0 10px;
+}
+/* #show {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1;
+  border: 2px solid #ccc;
+  background: #fff;
+} */
+table{
+  width: 100%;
+  margin: 40px auto;
+  /* background: rgb(124,154,167); */
+  border: 1px solid black;
+}
+
+table.list{
+  text-align: center;
+  width: 100%;
+}
+
+
+td{
+  border: 1px solid rgb(10, 10, 10);
+  text-align: left;
+  padding: 8px 15px;
+}
+
+/* tr:nth-child(even), table.list thread> tr{
+  background-color: rgb(204,200,200);
+} */
+table, td, th {
+  border: 1px solid black;
+  margin-top: 3rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 60px;
+  width: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
+  background-color: rgb(75, 161, 161);
+}
+.card{
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.125);
+  padding: 30px;
+}
+
+.card .title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #e2354c;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card .form{
+  width: 100%;
+}
+
+.card .form .inputfield{
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+
+/* .card .form .inputfield  */
+label{
+   width: 100px;
+   color: #080707;
+   margin-right: 10px;
+  font-size: 13px;
+  padding-top: .5rem;
+  margin-top: .5rem;
+  font-weight: 500;
+}
+.form-control{
+  width:300px;
+}
+
+
+
+.inputfield p{
+   font-size: 14px;
+   color: #757575;
+}
+
+h4{
+  color: royalblue;
+  align-items: center;
+  margin: 5rem 35rem;
+  font-weight: 700;
+}
+
+
+#my-button
+  {
+    width: 120px;
+    font-size:20px;
+    padding:10px;
+    background-color: rgb(90, 88, 199);
+    color: rgb(49, 18, 18);
+    border: 1px;;
+    margin:15px 5rem ;
+    font-weight: 600;
+    align-items: center;
+    border-radius: 5px 5px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+  }
+  /* #my-button:hover{
+    cursor:pointer;
+    background-color: rgb(133, 189, 111);
+  } */
+
+  .btn-secondary {
+    min-height: 60%;
+    width: 7rem;
+    /* border-width: medium;
+    border-radius: 0; */
+    padding: 10rem 1.2rem;
+    font-size: 2rem;
+   margin-right: 10rem;
+   /* margin-left: 10rem; */
+    margin: 1rem 10rem;
+    color: white;
+    background-color: rgb(43, 189, 67);
+    color: rgb(49, 18, 18);
+    font-family: Arial, Helvetica, sans-serif;
+ 
+  }
+  .btn-secondary:hover,
+  .btn-secondary:focus {
+    border-color: #62b4a8;
+    background-color: #189582;
+    color: white;
+  }
+ 
+  img{
+    height: 5rem;
+    width:10rem;
+    align-items: center;
+    margin: 0 11rem;
+  }
+
+
+
+@media (max-width:420px) {
+  .card .form .inputfield{
+    flex-direction: column;
+    align-items: flex-start;
+    width:50%;
+  }
+  .card .form .inputfield label{
+    margin-bottom: 5px;
+    color: black;
+  }
+  .card .form .inputfield.terms{
+    flex-direction: row;
+  }
+  img{
+    height: 5rem;
+    align-items:  center;
+    margin: 5rem 4rem;
+    justify-items: center;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-100%);
+
+  }
+  .title{
+    align-items:  center;
+    margin: 7rem 1rem;
+    position: relative;
+  }
+  table {
+    display: none;
+  }
+  label{
+    font-size: small;
+    
+  }
+  table, th,tr,td{
+    
+    display: block;
+    width: 165%;
+  }
+  /* tr{
+    margin-bottom: 1px;
+  } */
+  th{
+    text-align: center;
+    padding-left: 40%;
+    height: 60px;
+    width: 170%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+ 
+  #show tr th {
+    flex-direction: column;
+  }
+  h4{
+    color: royalblue;
+    align-items: right;
+    margin: 5rem 6rem;
+    font-weight: 700;
+  }
+
+  #my-button{
+  
+    font-size: 1.5rem;
+    margin: 1rem 5rem;
+    width: 50%;
+  }
+  .btn-secondary{
+    font-size: 2rem;
+    margin: 1rem 5rem;
+    width: 50%;
+    min-height: 3rem;
+  }
+}
