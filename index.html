@@ -22,7 +22,7 @@
         Registration Form
       </div>
      
-      <form class="needs-validation"  onclick="AddRow()" onsubmit="val()" novalidate>
+      <form class="needs-validation"  onclick="AddRow()"  novalidate>
         
         <!-- <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off" novalidate> -->
        
@@ -399,7 +399,7 @@
             </div>
           </div>
         </div>
-
+<!-- 
         <div class="row">
           <div class="col-md-6 client">
              <div class="row">
@@ -408,15 +408,23 @@
 
                   </div>
                   <div class="col-md-6">
-                    <!-- <a href="index.html"id="btn"onClick="alert('Resetting successfully')">Reset</a> -->
+                    <!-- <a href="index.html"id="btn"onClick="alert('Resetting successfully')">Reset</a> 
                     <a class="btn btn-secondary " style="background-color: rgb(15, 103, 204);font-size: 20px;" href="index.html" onClick="alert('Resetting successfully')" >Reset</a>
                   </div>
               </div>
           </div>
         
        
+        </div> -->
+        
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <button class="btn btn-danger form-control  btn-block" id="reset" onclick="window.location.href='index.html'" >Reset</button></div>
+            <div class="col">
+              <button id="btnSubmit" class="btn btn-primary form-control btn-block" type="submit" disabled onclick="AddRow()" >Save</button></div>
+          </div>
         </div>
-   
      
       </form>
       </div>
@@ -445,6 +453,7 @@
       </script>
 <div id="show1" class="hidden"> 
   <h4>View Details</h4>
+  
 
   <table id="show" >
  

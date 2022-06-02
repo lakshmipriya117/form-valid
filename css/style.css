@@ -102,7 +102,7 @@ label{
    width: 100px;
    color: #080707;
    margin-right: 10px;
-  font-size: 13px;
+  font-size: 12px;
   padding-top: .5rem;
   margin-top: .5rem;
   font-weight: 500;
@@ -132,10 +132,10 @@ h4{
     font-size:20px;
     padding:10px;
     background-color: rgb(90, 88, 199);
-    color: rgb(49, 18, 18);
+    color: rgb(238, 230, 230);
     border: 1px;;
-    margin:15px 5rem ;
-    font-weight: 600;
+    margin:15px 15rem ;
+    font-weight: 500;
     align-items: center;
     border-radius: 5px 5px 5px 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -154,9 +154,9 @@ h4{
     border-radius: 0; */
     padding: 10rem 1.2rem;
     font-size: 2rem;
-   margin-right: 10rem;
+  
    /* margin-left: 10rem; */
-    margin: 1rem 10rem;
+    margin: 1rem 15rem;
     color: white;
     background-color: rgb(43, 189, 67);
     color: rgb(49, 18, 18);
@@ -241,14 +241,14 @@ h4{
     font-weight: 700;
   }
 
-  #my-button{
+  #btnSubmit{
   
     font-size: 1.5rem;
     margin: 1rem 5rem;
     width: 50%;
   }
-  .btn-secondary{
-    font-size: 2rem;
+  #reset{
+    font-size: 1.5rem;
     margin: 1rem 5rem;
     width: 50%;
     min-height: 3rem;

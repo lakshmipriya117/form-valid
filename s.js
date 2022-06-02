@@ -97,12 +97,14 @@
 			n++;
 			x++;
 			
+			
 		}
 
 		var checkTextarea = (e) => {
 			const content = $("#ivalue").val().trim();
 			
-			$('#my-button').prop('disabled', content === '');
+			//$('#my-button').prop('disabled', content === '');
+			$('#btnSubmit').prop('disabled', content === '');
 
 			document.getElementById("show1").classList.toggle("hidden");
 		  };
@@ -120,6 +122,9 @@ function val(){
 			else{
 				
 				alert("saved successfully")
+				
 			}
 }
+
+
 		
