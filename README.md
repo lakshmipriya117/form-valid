@@ -4,6 +4,7 @@ https://lakshmipriya117.github.io/form-valid/<br />
 Features included:<br />
 *Button enabled only after all values entered<br />
 *Validation<br />
+*Flexbox-Grid<br />
 *Mobile responsiveness<br />
 *Table containing form inputs displayed only after all entry validated<br />
 form:<br /><br /><br />
