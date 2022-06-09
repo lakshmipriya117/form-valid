@@ -96,6 +96,13 @@ th {
   align-items: center;
   margin-top: 1em;
 }
+.x{
+font-size: 12px;
+margin-top: .7rem;
+}
+.form-check-input{
+  margin-top: .4rem;
+}
 
 /* .card .form .inputfield  */
 label{
@@ -147,34 +154,14 @@ h4{
     background-color: rgb(133, 189, 111);
   } */
 
-  .btn-secondary {
-    min-height: 60%;
-    width: 7rem;
-    /* border-width: medium;
-    border-radius: 0; */
-    padding: 10rem 1.2rem;
-    font-size: 2rem;
   
-   /* margin-left: 10rem; */
-    margin: 1rem 15rem;
-    color: white;
-    background-color: rgb(43, 189, 67);
-    color: rgb(49, 18, 18);
-    font-family: Arial, Helvetica, sans-serif;
- 
-  }
-  .btn-secondary:hover,
-  .btn-secondary:focus {
-    border-color: #62b4a8;
-    background-color: #189582;
-    color: white;
-  }
  
   img{
     height: 5rem;
     width:10rem;
     align-items: center;
-    margin: 0 11rem;
+    margin: 0 12rem;
+    margin-bottom: 1.5rem;
   }
 
 
@@ -195,13 +182,14 @@ h4{
   img{
     height: 5rem;
     align-items:  center;
-    margin: 5rem 4rem;
+    margin: 0rem 4rem;
     justify-items: center;
   position: absolute;
   -ms-transform: translateY(-50%);
   transform: translateY(-100%);
 
   }
+  
   .title{
     align-items:  center;
     margin: 7rem 1rem;
@@ -244,12 +232,12 @@ h4{
   #btnSubmit{
   
     font-size: 1.5rem;
-    margin: 1rem 5rem;
+    margin: 1rem 4rem;
     width: 50%;
   }
   #reset{
     font-size: 1.5rem;
-    margin: 1rem 5rem;
+    margin: 1rem 4rem;
     width: 50%;
     min-height: 3rem;
   }
